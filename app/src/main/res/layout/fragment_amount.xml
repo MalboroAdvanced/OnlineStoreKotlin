@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context=".AmountFragment">
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtEnterAmount" android:hint="Enter Amount..."/>
+    <ImageButton
+            android:src="@drawable/addtocart"
+            android:layout_width="307dp"
+            android:layout_height="69dp" android:id="@+id/btnAddToCart" android:layout_gravity="center"
+            android:scaleType="centerCrop"/>
+</LinearLayout>
